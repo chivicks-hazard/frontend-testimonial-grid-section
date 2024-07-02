@@ -1,8 +1,10 @@
+import danielImage from '../assets/images/image-daniel.jpg';
+
 const Daniel = () => {
     return (
-        <div className="col-span-2 p-7 rounded-xl shadow-lg bg-moderateViolet flex flex-col">
+        <div className="row-span-2 col-span-1 lg:col-span-2 lg:row-span-1 p-7 rounded-xl shadow-lg bg-moderateViolet flex flex-col">
             <div className="flex flex-row space-x-5">
-                <img src="..\src\assets\images\image-daniel.jpg" alt="Daniel Clifford" className="rounded-full" />
+                <img src={danielImage} alt="Daniel Clifford" className="rounded-full" />
                 <div className="flex flex-col">
                     <h3 className="text-2xl font-bold text-lightGrayishBlue">Daniel Clifford</h3>
                     <p className='text-xl text-lightGray'>Verified Graduate</p>

@@ -1,10 +1,10 @@
-import React from 'react'
+import kiraImage from '../assets/images/image-kira.jpg';
 
 const Kira = () => {
     return (
         <div className='row-span-2 p-7 rounded-xl shadow-lg bg-white flex flex-col'>
             <div className="flex flex-row space-x-5">
-                <img src="..\src\assets\images\image-kira.jpg" alt="Kira Whittle" className="rounded-full" />
+                <img src={kiraImage} alt="Kira Whittle" className="rounded-full" />
                 <div className="flex flex-col">
                     <h3 className="text-2xl font-bold">Kira Whittle</h3>
                     <p className='text-xl text-veryDarkGrayishBlue'>Verified Graduate</p>
